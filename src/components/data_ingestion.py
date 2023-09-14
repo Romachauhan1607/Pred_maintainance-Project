@@ -1,9 +1,7 @@
 import os 
 import sys
-import pymysql
 from src.exception import CustomException
 from src.logger import logging
-import pandas as pd
 from dataclasses import dataclass
 from src.utils import read_sql_data
 
