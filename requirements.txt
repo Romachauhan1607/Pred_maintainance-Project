@@ -1,0 +1,9 @@
+flask
+python-dotenv
+pymongo
+ipykernel
+matplotlib
+seaborn
+scikit-learn
+xgboost
+-e .
