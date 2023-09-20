@@ -26,9 +26,9 @@ their performance. And finally, we would try
 to solve this problem using a mix-match of 
 various algorithms to the best of our knowledge
 
-### About Data
-![image](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/1ea0747b-a817-464b-95fd-645360b946a7)
-❏ Training data was a matrix of 45918 X 26
+### About Data                                                                    
+❏ Training data was a matrix of 45918 X 26                                              ![Web capture_20-9-2023_124225_](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/6632e4b0-651f-46a5-a12b-7ecb94a41210)
+
 
 ❏ It consisted of data form 218 engines, until 
 breakdown.
