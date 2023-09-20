@@ -17,8 +17,8 @@ def get_requirements(file_path:str)->List[str]:
 setup(
     name = "Predictive_maintenance",
     version = "0.1",
-    author = "Roma_team",
-    author_email = "varshamahato1999@gmail.com",
+    author = "Ayush Gandhi",
+    author_email = "ayushgandhi904@gmail.com",
     install_requires = get_requirements("requirements.txt"),
     packages = find_packages()
 )
