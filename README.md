@@ -15,4 +15,12 @@ The main goal is to predict the remaining useful life (RUL) of each engine.
 ❏ NASA released dataset of 218 turbofan 
 engines in 2008. The data was recorded until 
 the point of breakdown. 
+❏ In this project, we would try to understand 
+the data-set, and predict Remaining Useful 
+Life (RUL) of engines from testing data. 
+❏ We would try to deploy several machine 
+learning models on this data-set, and discuss 
+their performance. And finally, we would try 
+to solve this problem using a mix-match of 
+various algorithms to the best of our knowledge
 
