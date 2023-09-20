@@ -23,3 +23,7 @@ their performance. And finally, we would try
 to solve this problem using a mix-match of 
 various algorithms to the best of our knowledge
 
+### About Data
+![image](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/1ea0747b-a817-464b-95fd-645360b946a7)
+
+
