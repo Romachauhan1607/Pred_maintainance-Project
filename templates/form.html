@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Remaining Useful Life</title>
+    <style>
+        .form_container {
+             width: 500px; 
+            margin: 50px auto;
+            padding: 20px;
+            border: 2px solid black;
+        }
+
+        .input-container {
+            display: flex;
+            align-items: center;
+            justify-content:space-between;
+            padding-top: 10px;
+        }
+        input{
+            width:50%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="form_container">
+        <form method="POST" action="/predict">
+            <div class="input-container">
+                <label for="engine_number">Engine Number:</label>
+                <input type="number" name="engine_number" step="0" min="0" max="100" required>
+            </div>
+            <div class="input-container">
+                <label for="time_cycles">Time Cycles:</label>
+                <input type="number" name="time_cycles" step="0" min="0" max="103" required>
+            </div>
+
+            <div class="input-container">
+                <label for="LPC outlet temperature">LPC outlet temperature:</label>
+                <input type="number" name="LPC outlet temperature" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="HPC outlet temperature">HPC outlet temperature:</label>
+                <input type="number" name="HPC outlet temperature" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="LPT outlet temperature">LPT outlet temperature:</label>
+                <input type="number" name="LPT outlet temperature" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="HPC outlet pressure">HPC outlet pressure:</label>
+                <input type="number" name="HPC outlet pressure" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Physical fan speed">Physical fan speed:</label>
+                <input type="number" name="Physical fan speed" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Physical core speed">Physical core speed:</label>
+                <input type="number" name="Physical core speed" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="HPC outlet Static pressure">HPC outlet Static pressure:</label>
+                <input type="number" name="HPC outlet Static pressure" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Ratio of fuel flow to Ps30">Ratio of fuel flow to Ps30:</label>
+                <input type="number" name="Ratio of fuel flow to Ps30" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Corrected fan speed">Corrected fan speed:</label>
+                <input type="number" name="Corrected fan speed" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Bypass Ratio">Bypass Ratio:</label>
+                <input type="number" name="Bypass Ratio" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="Bleed Enthalpy">Bleed Enthalpy:</label>
+                <input type="number" name="Bleed Enthalpy" step="0.01" required>
+            </div>
+
+            <div class="input-container">
+                <label for="High-pressure turbines Cool air flow">High-pressure turbines Cool air flow:</label>
+                <input type="number" name="High-pressure turbines Cool air flow" step="0.01" required>
+            </div>
+
+
+            <div class="input-container">
+                <label for="Low-pressure turbines Cool air flow">Low-pressure turbines Cool air flow:</label>
+                <input type="number" name="Low-pressure turbines Cool air flow" step="0.01" required>
+            </div>
+
+            <button type="submit" value="Submit">Button</button>
+        </form>
+    </div>
+
+</body>
+
+</html>

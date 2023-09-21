@@ -4,5 +4,10 @@ seaborn
 matplotlib
 flask
 scikit-learn
-pysql 
+pymysql
+ipykernel
+python-dotenv
+xgboost
+mysql-connector-python
 # -e . 
+

@@ -1,24 +1,25 @@
-from setuptools import find_packages, setup
+from setuptools import find_packages,setup
 from typing import List
 
-hyphen_e_dot = "-e ."
+HYPEN_E_DOT= '-e .'
 
-def get_requirements(file_path:str)->List[str]:
-    requirements = []
-    with open(file_path) as file_obj:
-        requirements = file_obj.readlines()
-        requirements = [req.replace("\n", "") for req in requirements]
+def get_requirements(file_path: str) -> List[str]:
+    requirements=[]
+    with open(file_path) as file_object:
+        requirements = file_object.readlines()
+        requirements = [req.replace("\n","") for req in requirements]
+
+
+        if HYPEN_E_DOT in requirements:
+            requirements.remove(HYPEN_E_DOT)
         
-        if hyphen_e_dot in requirements:
-            requirements.remove(hyphen_e_dot)
-            
     return requirements
 
 setup(
-    name = "Predictive_maintenance",
-    version = "0.1",
-    author = "Roma_team",
-    author_email = "varshamahato1999@gmail.com",
-    install_requires = get_requirements("requirements.txt"),
+    name="NASA_Project",
+    version = '0.0.1',
+    author ='roma',
+    author_email = 'roma.chauhan167@gmail.com',
+    install_requires = get_requirements('requirements.txt'),
     packages = find_packages()
-)
+    )
