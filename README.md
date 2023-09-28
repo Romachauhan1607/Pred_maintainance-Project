@@ -59,6 +59,21 @@ specific engine
 
 ![danger'](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/5c36ead3-b910-4faa-9d3f-55b82220125f)
 
+### INSTALLATION STEPS:
+
+conda create -p venv python==3.9 -y
+
+conda activate venv/
+
+pip install -r requirements.txt
+
+### Deployment:
+
+python application.py
+
+
+
+
 
 
 
