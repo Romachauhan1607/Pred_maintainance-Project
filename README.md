@@ -49,9 +49,19 @@ breakdown.
 ❏ Each unit number was associated with a 
 specific engine
 
-### VISUALIZATIONS:
+### Assumptions:
 
-![image](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/9bcf5369-b52c-4d1c-8540-73ca944a9e72)
+❏ Every engine is assumed to be at the 100% health initially. 
+
+❏ Engine health degrades with time.
+
+❏ At cycles = 0, engine health = 1
+
+❏ When RUL becomes zero in training set, i.e. engine completes all the cycles, engine health is assumed to be zero.
+
+❏ To identify the features, which have a major impact on the engine’s health, we preprocess the data and compare 
+slopes of all the graphs. (These features are assumed to exhibit change in data as time (or cycles) increases).
+
 
 
 
