@@ -49,6 +49,11 @@ breakdown.
 ❏ Each unit number was associated with a 
 specific engine
 
+### VISUALIZATIONS:
+
+![image](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/4cd3e6c0-6c8c-4cc9-a658-932074fcb6d3)
+
+
 
 ### RESULTS:
 
