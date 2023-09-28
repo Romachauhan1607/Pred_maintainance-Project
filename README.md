@@ -93,7 +93,7 @@ slopes of all the graphs. (These features are assumed to exhibit change in data 
 ### INSTALLATION STEPS:
 
 
-conda create -p venv python==3.9 -y
+```conda create -p venv python==3.9 -y```
 
 conda activate venv/
 
