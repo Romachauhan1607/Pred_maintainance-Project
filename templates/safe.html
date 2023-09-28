@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predict Maintenance Result</title>
+    <style>
+        body {
+            text-align: center;
+            background-color: #5cb85c; /* Green background color for safety */
+            color: #fff; /* White text color for text on the green background */
+            font-family: Arial, sans-serif;
+        }
+        .center {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh; /* This ensures the content is centered vertically on the viewport */
+        }
+        .button {
+            margin-top: 20px; /* Add some spacing below the result */
+            background-color: #449d44; /* Darker green for the button */
+            color: #fff; /* White text color for the button */
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease-in-out;
+        }
+        .button:hover {
+            background-color: #398439; /* Even darker green on hover for the button */
+        }
+        .safe-emoji {
+            font-size: 48px; /* Adjust the font size as needed */
+        }
+    </style>
+</head>
+<body>
+    <div class="center">
+        <h1 class="safe-emoji">✅ Safe: Prediction Result</h1>
+        <p>{{ final_result }}</p>
+        <a href="/predict" class="button">Remaining Useful Life</a>
+    </div>
+</body>
+</html>
+
