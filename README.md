@@ -70,6 +70,14 @@ slopes of all the graphs. (These features are assumed to exhibit change in data 
 
 ![home](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/14fe98e3-ed05-4e26-bac9-36b0343eca33)
 
+![Screenshot 2023-09-27 004101](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/44b4f740-5d46-4b8d-933d-b4e763025fe3)
+
+
+![Screenshot 2023-09-27 004047](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/2e03be4a-0930-40e7-89db-1e76e3d20f1f)
+
+
+
+![Screenshot 2023-09-27 004335](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/9745625a-1546-4d8c-b3bf-12c39e4c3146)
 
 
 ![warning](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/e6e557c6-8beb-4bb6-941c-52c8bdf259c1)
