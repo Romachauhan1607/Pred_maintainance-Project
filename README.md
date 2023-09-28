@@ -109,4 +109,19 @@ pip install -r requirements.txt
 
 ```
 python application.py
+<<<<<<< HEAD
 ```
+=======
+```
+
+
+
+
+
+
+
+
+
+
+
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838

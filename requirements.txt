@@ -7,4 +7,9 @@ scikit-learn
 ipykernel
 python-dotenv
 pymysql
+<<<<<<< HEAD
 # -e .
+=======
+mysql-connector-python
+# -e . 
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838

@@ -21,12 +21,15 @@ list_of_files = [
     f"src/pipeline/__init__.py",
     f"src/pipeline/training_pipeline.py",
     f"src/pipeline/prediction_pipeline.py",
+<<<<<<< HEAD
     f"notebooks/EDA.ipynb",
     f"notebooks/1.data_ingestion.ipynb",
     f"notebooks/2.data_transformation.ipynb",
     f"notebooks/3.model_trainer.ipynb",
     ".env",
     f"templates/index.html"
+=======
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838
 ]
 
 for filepath in list_of_files:
@@ -43,4 +46,8 @@ for filepath in list_of_files:
             logging.info(f"Creating empty file: {filepath}")
 
     else:
+<<<<<<< HEAD
         logging.info(f"{filename} is already exists")
+=======
+        logging.info(f"{filename} is already exists")
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838

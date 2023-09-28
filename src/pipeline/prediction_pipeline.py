@@ -36,7 +36,11 @@ class PredictPipeline:
         
 #Defining the custom class to input data through form
 class CustomData: 
+<<<<<<< HEAD
 
+=======
+    logging.info("Initializing custom data")
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838
     def __init__(self,
                  Engine_no:int,
                  Cycle_no:int,
@@ -54,6 +58,7 @@ class CustomData:
                  High_pressure_cool_air_flow:float,
                  Low_pressure_cool_air_flow:float):
         
+<<<<<<< HEAD
         self.Engine_no = Engine_no
         self.Cycle_no= Cycle_no
         self.LPC_outlet_temperature = LPC_outlet_temperature
@@ -69,11 +74,30 @@ class CustomData:
         self.Bleed_enthalpy = Bleed_enthalpy
         self.High_pressure_cool_air_flow= High_pressure_cool_air_flow
         self.Low_pressure_cool_air_flow = Low_pressure_cool_air_flow
+=======
+        self.engine_no = Engine_no
+        self.cycle_no= Cycle_no
+        self.lpc_outlet_temperature = LPC_outlet_temperature
+        self.hpc_outlet_temperature = HPC_outlet_temperature
+        self.lpt_outlet_temperature = LPT_outlet_temperature
+        self.hpc_outlet_pressure = HPC_outlet_pressure
+        self.physical_fan_speed= Physical_fan_speed
+        self.physical_core_speed = Physical_core_speed
+        self.hpc_outlet_static_pressure = HPC_outlet_static_pressure
+        self.fuel_flow_ratio = Fuel_flow_ratio
+        self.fan_speed= Fan_speed
+        self.bypass_ratio = Bypass_ratio
+        self.bleed_enthalpy = Bleed_enthalpy
+        self.high_pressure_cool_air_flow= High_pressure_cool_air_flow
+        self.low_pressure_cool_air_flow = Low_pressure_cool_air_flow
+        logging.info("All features self initialized")
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838
         
         
         #defining function to store obtain data in the form of the dataframe
     def get_data_as_dataframe(self):
         try:
+<<<<<<< HEAD
             custom_data_input_dict = {
                 "Engine_no": [self.Engine_no],
                 "Cycle_no": [self.Cycle_no],
@@ -94,6 +118,30 @@ class CustomData:
           
 
             df = pd.DataFrame(custom_data_input_dict)
+=======
+            logging.info("Defining data into input")
+            custom_data_input_dict = {
+                "engine_no" : [self.engine_no],
+                "cycle_no" : [self.cycle_no],
+                "lpc_outlet_temperature" : [self.lpc_outlet_temperature],
+                "hpc_outlet_temperature" : [self.hpc_outlet_temperature],
+                "lpt_outlet_temperature" : [self.lpt_outlet_temperature],
+                "hpc_outlet_pressure" : [self.hpc_outlet_pressure],
+                "physical_fan_speed" : [self.physical_fan_speed],
+                "physical_core_speed" : [self.physical_core_speed],
+                "hpc_outlet_static_pressure" : [self.hpc_outlet_static_pressure ],
+                "fuel_flow_ratio" : [self.fuel_flow_ratio],
+                "fan_speed" : [self.fan_speed],
+                "bypass_ratio" : [self.bypass_ratio],
+                "bleed_enthalpy" : [self.bleed_enthalpy],
+                "high_pressure_cool_air_flow" : [self.high_pressure_cool_air_flow],
+                "low_pressure_cool_air_flow" : [self.low_pressure_cool_air_flow]
+            }     
+            
+            logging.info("Data inputed inputed inform of Dictonary to input features")
+            df = pd.DataFrame(custom_data_input_dict)
+            logging.info("Dataframe is gathered as dataframe")
+>>>>>>> 3d03f507d7572cba07c4152e349ede1e791ee838
             return df     
         
         except CustomException as e:
