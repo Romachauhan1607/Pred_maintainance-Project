@@ -1,11 +1,15 @@
 # Remaining Useful Life (RUL) Prediction for Turbofan Engines
 
-An internship project from iNeuron.ai. Attempt to create app that predicts the remaining useful life (RUL) of turbofan jet engine.
-
 ### Objective
 The objective of this project is to develop a machine learning model to predict the remaining useful life of aircraft turbofan engines. The Remaining Useful Life (RUL) is the amount of cycles an engine has left before it needs maintenance.
 
 ![sensor](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/81d74b8f-374e-48ee-9a14-316d71a256a2)
+
+### AWS Deployment Link:
+AWS deployment link: http://predictive-env-1.eba-5bwnxpqm.ap-south-1.elasticbeanstalk.com/
+
+![Screenshot 2023-09-27 003828](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/9515587a-0f62-4d03-959e-4ea31e48f2b4)
+
 
 
 ### Project Description :
