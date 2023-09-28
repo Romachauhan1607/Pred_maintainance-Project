@@ -55,11 +55,15 @@ specific engine
 ![home](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/14fe98e3-ed05-4e26-bac9-36b0343eca33)
 
 
+
 ![warning](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/e6e557c6-8beb-4bb6-941c-52c8bdf259c1)
+
+
 
 ![danger'](https://github.com/Romachauhan1607/Pred_maintainance-Project/assets/90463649/5c36ead3-b910-4faa-9d3f-55b82220125f)
 
 ### INSTALLATION STEPS:
+conda create -p venv python==3.9 -y
 
 conda create -p venv python==3.9 -y
 
